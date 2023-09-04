@@ -1,0 +1,2 @@
+# faetec
+ exerciciosPraticos
