@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.firstRow {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 300px;
+  font-size: 1.3rem;
+  background-color: rgb(33, 33, 92);
+}
+.firstRow a {
+  color: white;
+}
+
+.rotationPromo {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.firstRow .orders {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  font-size: 2rem;
+  margin: 5px 300px;
+  display: flex;
+}
+.secondRow a {
+  color: rgb(33, 33, 92);
+  font-weight: bold;
+}
+.secondRow #logo {
+  width: 300px;
+}
+.secondRow img {
+  width: 20px;
+}
+.secondRow input {
+  border: none;
+  border-radius: 10px;
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(225, 231, 233);
+  padding: 5px;
+}
+.favLogCart {
+  display: flex;
+  gap: 30px;
+}
+.menuAnimals {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  background-color: rgb(225, 231, 233);
+  padding: 0 300px;
+}
+
+.menuAnimals a {
+  color: rgb(33, 33, 92);
+  font-weight: bold;
+}
+
+#petSining {
+  width: 20px;
+}
+#banner {
+  display: flex;
+  margin: 0 auto;
+}
+.animalsSection {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 300px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.animalsSection .cards p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#facilities {
+  display: flex;
+  padding: 15px 300px;
+  justify-content: space-between;
+}
+#facilities img {
+  width: 60px;
+  margin-right: 20px;
+}
+.facilities-cards-a,
+.facilities-cards-b {
+  border-radius: 10px;
+  font-size: 1.6rem;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+}
+
+.facilities-cards-a {
+  background-color: rgb(225, 231, 233);
+}
+
+.facilities-cards-b {
+  background-color: rgb(33, 33, 92);
+}
+.facilities-cards-b a {
+  color: white;
+}
+.facilities-cards-a a {
+  color: rgb(33, 33, 92);
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(33, 33, 92);
+}
+
+#promoWeek {
+  display: flex;
+  padding: 15px 300px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#promoWeek img {
+  width: 150px;
+}
+
+.promoWeekCards {
+  border: 1px solid rgb(225, 231, 233);
+  border-radius: 10px;
+  font-size: 2rem;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 40px;
+  margin-right: 20px;
+}
+
+.promoWeekCards p {
+  color: black;
+  padding-top: 50px;
+}
+
+#services img {
+  width: 380px;
+}
+
+#services {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#checkNow img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+#checkNow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
+}
+
+/*@media (max-width: 600px) {
+  .firstRow,
+  .secondRow,
+  .menuAnimals,
+  img#banner,
+  .animalsSection,
+  #facilities,
+  .title,
+  #promoWeek,
+  #services,
+  #checkNow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .rotationPromo,
+  .orders,
+  .img#logo,
+  .input,
+  .favLogCart,
+  .menuAnimals a,
+  .menuAnimals img#peSining,
+  img#banner,
+  .facilities-cards-a,
+  .facilities-cards-b,
+  .promoWeekCards,
+  #services a,
+  #checkNow a {
+    margin: 10px 0;
+  }
+  #div3 {
+    display: none;
+  }*/
